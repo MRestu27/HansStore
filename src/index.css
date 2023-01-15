@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+  }
+
+  .hans-container {
+    @apply w-[85vw] xl:w-[95vw] m-auto;
+  }
+  .material-symbols-outlined {
+    @apply text-3xl opacity-60;
+  }
+}
