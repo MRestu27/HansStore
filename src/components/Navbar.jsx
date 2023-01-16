@@ -14,9 +14,14 @@ const Navbar = () => {
             <li>About</li>
             <li>Contact</li>
           </ul>
-          <ul>
-            <span className="material-symbols-outlined">person</span>
-            <img src="" alt="" />
+          <ul className="flex gap-3">
+            <li className="md:hidden">
+              <span className="material-symbols-outlined">person</span>
+            </li>
+            <li className="flex">
+              <span class="material-symbols-outlined">shopping_cart</span>
+              <p className="font-light opacity-50">(0)</p>
+            </li>
           </ul>
         </nav>
       </header>

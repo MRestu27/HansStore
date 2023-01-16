@@ -16,4 +16,14 @@
   .material-symbols-outlined {
     @apply text-3xl opacity-60;
   }
+  .gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  .gallery .tes {
+    width: 100%;
+    height: auto;
+  }
 }

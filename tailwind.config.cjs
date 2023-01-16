@@ -11,5 +11,6 @@ module.exports = {
       xsm: { max: "425px" },
     },
   },
+  important: true,
   plugins: [],
 };
