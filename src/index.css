@@ -14,7 +14,7 @@
     @apply w-[85vw] xl:w-[95vw] m-auto;
   }
   .material-symbols-outlined {
-    @apply text-3xl opacity-60;
+    @apply text-3xl text-[#272343];
   }
   .gallery {
     margin: 5px;
@@ -25,5 +25,21 @@
   .gallery .tes {
     width: 100%;
     height: auto;
+  }
+
+  .hover-underline:after {
+    background: none repeat scroll 0 0 transparent;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #ffd803;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .hover-underline:hover:after {
+    width: 100%;
+    left: 0;
   }
 }
