@@ -1,12 +1,12 @@
 import { useState } from "react";
-import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Product from "./components/Product";
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <Hero />
+      <Product />
     </>
   );
 };
